@@ -1,10 +1,9 @@
 // @import '/styles/accordian', '/styles/colors', '/styles/icons', '/styles/para', '/styles/typography';
-@import './base/colors', './base/typography', 'components/navbar', './sections/hero-section','./sections/center-section';
+@import './base/colors', './base/typography', 'components/navbar', './sections/hero-section','./sections/center-section','./sections/left-section';
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
-    // background-color: $ltwhite;
-    background-color: lightblue;
+    background-color: $ltwhite;
 }
 
 %flex {
