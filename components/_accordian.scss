@@ -1,0 +1,32 @@
+.accordian {
+    width: 400px;
+}
+.accordian li {
+    padding: 8px;
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #fff;
+    border-bottom: 1px solid #b7b6b6;
+}
+.accordian li label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    color: $dkprimary;
+}
+
+.accordian label + input[type="radio"] {
+    display: none;
+}
+.accordian .answer {
+    max-height: 0px;
+    display: none;
+    transition: max-height 0.5s;
+}
+
+.accordian label + input[type="radio"]:checked + .answer{
+   max-height: 400px;
+   display: block;
+}

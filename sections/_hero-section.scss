@@ -1,0 +1,62 @@
+@import '../base/colors','../base/typography';
+
+.button {
+    padding: 12px 17px;
+    border-radius: 5px;
+}
+
+.hero-cont {
+    @extend %flex_col;
+    margin: 150px;
+
+    .hero-cont-title {   
+        margin: 0;
+        text-align: center; 
+    }
+
+    .hero-cont-subtitle {
+        text-align: center;
+    }
+
+    .hero-cont-call-to-action {
+        @extend %flex_row;
+        gap: 16px;
+        width: 318px;
+
+        .hero-cont-cta-button1 {
+            background: $actprimary;
+            border: none;
+            .link_text {
+                color: $ltwhite;    
+            }
+        }
+        
+        .hero-cont-cta-button2 {
+            background: $ltwhite;
+            border: 1px solid $dkterteriary;
+            a {
+                color: $dkprimary;    
+            }
+        }
+
+        .link_text {
+            text-align: center;
+            
+            span .full-preview-icon {
+                height: 12px;
+                width: 12px;
+                padding-left: 7px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .hero-cont-title { 
+        max-width: 608px;
+    }
+    .hero-cont-subtitle  {
+        min-width: 330px;
+        max-width: 530px;
+    }
+}
