@@ -1,0 +1,186 @@
+@import '../base/variables', '../base/colors';
+
+.h1_text {
+    color: $dkprimary;
+    font-family: $font_family1;
+    font-style: $font_style1;
+    font-weight: $font_weight1;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -3px;
+
+    @media #{$tablet} {
+        font-size: 56px;
+        line-height: 60px;
+        letter-spacing: -2px;
+    }
+
+    @media #{$mobile} {
+        font-size: 40px;
+        line-height: 44px;
+        letter-spacing: -1.5px;
+    }
+}
+
+.h2_text {
+    color: $dkprimary;
+    font-family: $font_family1;
+    font-style: $font_style1;
+    font-weight: $font_weight1;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: -2px;
+
+    @media #{$tablet} {
+        font-size: 40px;
+        line-height: 44px;
+        letter-spacing: -1.5px;
+    }
+
+    @media #{$mobile} {
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: -1px;
+    }
+}
+
+.h3_text {
+    color: $dkprimary;
+    font-family: $font_family1;
+    font-style: $font_style1;
+    font-weight: $font_weight1;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: -1.5px;
+
+    @media #{$tablet} {
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: -1px;
+    }
+
+    @media #{$mobile} {
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: -1px;
+    }
+}
+
+.h4_text {
+    color: $dkprimary;
+    font-family: $font_family1;
+    font-style: $font_style1;
+    font-weight: $font_weight1;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -1px;
+
+    @media #{$tablet} {
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: -1px;
+    }
+
+    @media #{$mobile} {
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: -0.8px;
+    }
+}
+
+.h5_text {
+    color: $dkprimary;
+    font-family: $font_family1;
+    font-style: $font_style1;
+    font-weight: $font_weight1;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.8px;
+
+    @media #{$tablet} {
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: -0.8px;
+    }
+
+    @media #{$mobile} {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.6px;
+    }
+}
+
+.h6_text {
+    color: $dkprimary;
+    font-family: $font_family1;
+    font-style: $font_style1;
+    font-weight: $font_weight1;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+
+    @media #{$mobile} {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.1px;
+    }
+}
+
+.subtitle_text {
+    color: $dkprimary;
+    font-family: $font_family1;
+    font-style: $font_style1;
+    font-weight: $font_weight2;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.8px;
+
+    @media #{$tablet} {
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: -0.8px;
+    }
+
+    @media #{$mobile} {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.6px;
+    }
+}
+
+.link_text {
+    color: $dkprimary;
+    font-family: $font_family1;
+    font-style: $font_style1;
+    font-weight: $font_weight1;
+    font-size: 16px;
+    line-height: 24px;  
+    letter-spacing: -0.6px;
+    text-decoration: none;
+}
+
+.para_text {
+    color: $dkprimary;
+    font-family: $font_family1;
+    font-style: $font_style1;
+    font-weight: $font_weight2;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+
+    @media #{$mobile} {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.1px;
+    }
+}
+
+.label_text {
+    color: $dkprimary;
+    font-family: $font_family1;
+    font-style: $font_style1;
+    font-weight: $font_weight2;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.3px;
+}
