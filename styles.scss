@@ -1,5 +1,5 @@
 // @import '/styles/accordian', '/styles/colors', '/styles/icons', '/styles/para', '/styles/typography';
-@import './base/colors', './base/typography', 'components/navbar', './sections/hero-section','./sections/center-section','./sections/left-section';
+@import './base/colors', './base/typography', './components/icons','./components/navbar', './sections/hero-section','./sections/center-section','./sections/left-section';
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
@@ -36,4 +36,20 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.master-head {
+    @extend %flex_col;
+    padding: 0px 0px 64px;
+}
+
+.master-head-title {
+    margin: 0;
+    text-align: center;
+}
+
+.master-head-subtitle {
+    text-align: center;
+    color: $dksecondary;
+    max-width: 500px;
 }

@@ -1,18 +1,45 @@
+@import '../base/colors', '../base/typography';
+
 .left-section {
     @extend %flex_col;
 
-    .left-head {
-        @extend %flex_col;
-        text-align: center;
-        padding: 0px 0px 64px;
 
-        .head-title {
-            margin: 0;
-            text-align: center;
+    .left-cont {
+        @extend %flex;
+        gap: 40px;
+
+        .left-column1 {
+            @extend %flexc;
+            gap: 35px;
+
+            .left-column-item {
+                @extend %flex;
+                gap: 24px;
+
+                .left-column-icon1 {
+                    @extend %flex_row;
+                    width: 48px;
+                    height: 48px;
+                    background: $actopacity1;
+                    border-radius: 10px;
+                }
+
+                .left-row-item-description {
+                    @extend %flexc;
+                    row-gap: 5px;
+                }
+            }
         }
-        .head-subtitle {
-            text-align: center;
-            color: $dksecondary;
+    }
+}
+
+@media only screen and (max-width: 919px) {
+    .left-cont {
+        flex-direction: column;
+        align-items: center;
+
+        .left-column-item {
+            padding: 0 30px;
         }
     }
 }
