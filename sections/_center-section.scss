@@ -9,13 +9,13 @@
         gap: 64px;
 
         .center-cont-items {
-            @extend %flex_spaceb;
+            @extend %flex_row;
+            width: 100%;
             gap: 40px;
    
             .center-item-cont {
                 @extend %flex_col;
-                min-width: 240px;
-                max-width: 375px;
+                max-width: 30%;
                 padding: 40px;
 
                 .center-item-title {
