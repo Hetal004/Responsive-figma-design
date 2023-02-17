@@ -1,0 +1,39 @@
+span .star-icon {
+    height: 18px;
+    width: 18px;
+    padding-right: 5px;
+    color: $actprimary;
+}
+
+.understand-user-icons {
+    color: $actprimary;
+    height: 20px;
+    width: 20px;
+    padding: 8px;
+    border-radius: 0px;
+}
+
+// IMAGE
+.image-size {
+    border-radius: 10px;
+}
+@media #{$mobile} {
+    .image-size {
+        height: 200px;
+        width: 240px;
+    }
+}
+
+@media #{$tablet} {
+    .image-size{
+            height: 271px;
+            width: 336px;
+    }
+}
+
+@media #{$desktop} {
+    .image-size {
+        height: 364px;
+        width: 451px;
+    }
+}
