@@ -8,14 +8,14 @@
   line-height: 72px;
   letter-spacing: -3px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .h1_text {
     font-size: 56px;
     line-height: 60px;
     letter-spacing: -2px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h1_text {
     font-size: 40px;
     line-height: 44px;
@@ -32,14 +32,14 @@
   line-height: 60px;
   letter-spacing: -2px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .h2_text {
     font-size: 40px;
     line-height: 44px;
     letter-spacing: -1.5px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h2_text {
     font-size: 32px;
     line-height: 36px;
@@ -56,14 +56,14 @@
   line-height: 44px;
   letter-spacing: -1.5px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .h3_text {
     font-size: 32px;
     line-height: 36px;
     letter-spacing: -1px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h3_text {
     font-size: 24px;
     line-height: 32px;
@@ -80,14 +80,14 @@
   line-height: 36px;
   letter-spacing: -1px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .h4_text {
     font-size: 24px;
     line-height: 32px;
     letter-spacing: -1px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h4_text {
     font-size: 20px;
     line-height: 28px;
@@ -104,14 +104,14 @@
   line-height: 32px;
   letter-spacing: -0.8px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .h5_text {
     font-size: 20px;
     line-height: 28px;
     letter-spacing: -0.8px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h5_text {
     font-size: 16px;
     line-height: 24px;
@@ -128,7 +128,7 @@
   line-height: 24px;
   letter-spacing: -0.6px;
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h6_text {
     font-size: 14px;
     line-height: 20px;
@@ -145,14 +145,14 @@
   line-height: 28px;
   letter-spacing: -0.8px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .subtitle_text {
     font-size: 18px;
     line-height: 28px;
     letter-spacing: -0.8px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .subtitle_text {
     font-size: 16px;
     line-height: 24px;
@@ -180,7 +180,7 @@
   line-height: 24px;
   letter-spacing: -0.6px;
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .para_text {
     font-size: 14px;
     line-height: 20px;
@@ -207,14 +207,14 @@
   line-height: 72px;
   letter-spacing: -3px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .h1_text {
     font-size: 56px;
     line-height: 60px;
     letter-spacing: -2px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h1_text {
     font-size: 40px;
     line-height: 44px;
@@ -231,14 +231,14 @@
   line-height: 60px;
   letter-spacing: -2px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .h2_text {
     font-size: 40px;
     line-height: 44px;
     letter-spacing: -1.5px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h2_text {
     font-size: 32px;
     line-height: 36px;
@@ -255,14 +255,14 @@
   line-height: 44px;
   letter-spacing: -1.5px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .h3_text {
     font-size: 32px;
     line-height: 36px;
     letter-spacing: -1px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h3_text {
     font-size: 24px;
     line-height: 32px;
@@ -279,14 +279,14 @@
   line-height: 36px;
   letter-spacing: -1px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .h4_text {
     font-size: 24px;
     line-height: 32px;
     letter-spacing: -1px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h4_text {
     font-size: 20px;
     line-height: 28px;
@@ -303,14 +303,14 @@
   line-height: 32px;
   letter-spacing: -0.8px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .h5_text {
     font-size: 20px;
     line-height: 28px;
     letter-spacing: -0.8px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h5_text {
     font-size: 16px;
     line-height: 24px;
@@ -327,7 +327,7 @@
   line-height: 24px;
   letter-spacing: -0.6px;
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h6_text {
     font-size: 14px;
     line-height: 20px;
@@ -344,14 +344,14 @@
   line-height: 28px;
   letter-spacing: -0.8px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .subtitle_text {
     font-size: 18px;
     line-height: 28px;
     letter-spacing: -0.8px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .subtitle_text {
     font-size: 16px;
     line-height: 24px;
@@ -379,7 +379,7 @@
   line-height: 24px;
   letter-spacing: -0.6px;
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .para_text {
     font-size: 14px;
     line-height: 20px;
@@ -430,14 +430,14 @@
   line-height: 72px;
   letter-spacing: -3px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .h1_text {
     font-size: 56px;
     line-height: 60px;
     letter-spacing: -2px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h1_text {
     font-size: 40px;
     line-height: 44px;
@@ -454,14 +454,14 @@
   line-height: 60px;
   letter-spacing: -2px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .h2_text {
     font-size: 40px;
     line-height: 44px;
     letter-spacing: -1.5px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h2_text {
     font-size: 32px;
     line-height: 36px;
@@ -478,14 +478,14 @@
   line-height: 44px;
   letter-spacing: -1.5px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .h3_text {
     font-size: 32px;
     line-height: 36px;
     letter-spacing: -1px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h3_text {
     font-size: 24px;
     line-height: 32px;
@@ -502,14 +502,14 @@
   line-height: 36px;
   letter-spacing: -1px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .h4_text {
     font-size: 24px;
     line-height: 32px;
     letter-spacing: -1px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h4_text {
     font-size: 20px;
     line-height: 28px;
@@ -526,14 +526,14 @@
   line-height: 32px;
   letter-spacing: -0.8px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .h5_text {
     font-size: 20px;
     line-height: 28px;
     letter-spacing: -0.8px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h5_text {
     font-size: 16px;
     line-height: 24px;
@@ -550,7 +550,7 @@
   line-height: 24px;
   letter-spacing: -0.6px;
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h6_text {
     font-size: 14px;
     line-height: 20px;
@@ -567,14 +567,14 @@
   line-height: 28px;
   letter-spacing: -0.8px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .subtitle_text {
     font-size: 18px;
     line-height: 28px;
     letter-spacing: -0.8px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .subtitle_text {
     font-size: 16px;
     line-height: 24px;
@@ -602,7 +602,7 @@
   line-height: 24px;
   letter-spacing: -0.6px;
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .para_text {
     font-size: 14px;
     line-height: 20px;
@@ -634,6 +634,8 @@
 }
 .hero-cont .hero-cont-subtitle {
   text-align: center;
+  min-width: 176px;
+  max-width: 530px;
 }
 .hero-cont .hero-cont-call-to-action {
   gap: 16px;
@@ -666,9 +668,10 @@
   .hero-cont-title {
     max-width: 608px;
   }
-  .hero-cont-subtitle {
-    min-width: 330px;
-    max-width: 530px;
+}
+@media (max-width: 576px) {
+  .hero-cont-call-to-action {
+    flex-direction: column;
   }
 }
 .h1_text {
@@ -680,14 +683,14 @@
   line-height: 72px;
   letter-spacing: -3px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .h1_text {
     font-size: 56px;
     line-height: 60px;
     letter-spacing: -2px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h1_text {
     font-size: 40px;
     line-height: 44px;
@@ -704,14 +707,14 @@
   line-height: 60px;
   letter-spacing: -2px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .h2_text {
     font-size: 40px;
     line-height: 44px;
     letter-spacing: -1.5px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h2_text {
     font-size: 32px;
     line-height: 36px;
@@ -728,14 +731,14 @@
   line-height: 44px;
   letter-spacing: -1.5px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .h3_text {
     font-size: 32px;
     line-height: 36px;
     letter-spacing: -1px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h3_text {
     font-size: 24px;
     line-height: 32px;
@@ -752,14 +755,14 @@
   line-height: 36px;
   letter-spacing: -1px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .h4_text {
     font-size: 24px;
     line-height: 32px;
     letter-spacing: -1px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h4_text {
     font-size: 20px;
     line-height: 28px;
@@ -776,14 +779,14 @@
   line-height: 32px;
   letter-spacing: -0.8px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .h5_text {
     font-size: 20px;
     line-height: 28px;
     letter-spacing: -0.8px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h5_text {
     font-size: 16px;
     line-height: 24px;
@@ -800,7 +803,7 @@
   line-height: 24px;
   letter-spacing: -0.6px;
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .h6_text {
     font-size: 14px;
     line-height: 20px;
@@ -817,14 +820,14 @@
   line-height: 28px;
   letter-spacing: -0.8px;
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 576px) and (max-width: 991px) {
   .subtitle_text {
     font-size: 18px;
     line-height: 28px;
     letter-spacing: -0.8px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .subtitle_text {
     font-size: 16px;
     line-height: 24px;
@@ -852,7 +855,7 @@
   line-height: 24px;
   letter-spacing: -0.6px;
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .para_text {
     font-size: 14px;
     line-height: 20px;
@@ -889,7 +892,11 @@
 .center-section .center-cont .center-cont-items {
   gap: 40px;
 }
+.center-section .center-cont .center-cont-items div .center-item-img1 {
+  border-radius: 10px;
+}
 .center-section .center-cont .center-cont-items .center-item-cont {
+  min-width: 240px;
   max-width: 375px;
 }
 .center-section .center-cont .center-cont-items .center-item-cont .center-item-title {
@@ -899,9 +906,8 @@
   color: rgba(39, 41, 55, 0.75);
 }
 
-@media only screen and (max-width: 576px) {
+@media (max-width: 576px) {
   .center-item-cont {
-    max-width: 375px;
     text-align: center;
     order: 2;
   }
@@ -909,31 +915,24 @@
     flex-direction: column;
     align-items: center;
   }
-}
-@media only screen and (min-width: 991px) {
-  div .center-item-img1,
-  div .center-item-img2,
-  div .center-item-img3 {
-    height: 364px;
-    width: 451px;
-    border-radius: 10px;
-  }
-  .center-item-cont {
-    padding: 40px;
+  .center-cont-items div .center-item-img1 {
+    height: 200px;
+    width: 240px;
   }
 }
-@media only screen and (max-width: 991px) {
-  .center-cont-items div .center-item-img1,
-  .center-cont-items div .center-item-img2,
-  .center-cont-items div .center-item-img3 {
+@media (min-width: 576px) and (max-width: 991px) {
+  .center-cont-items div .center-item-img1 {
     height: 271px;
     width: 336px;
-    border-radius: 10px;
+  }
+}
+@media (min-width: 991px) {
+  div .center-item-img1 {
+    height: 364px;
+    width: 451px;
   }
 }
 body {
-  font-family: "Inter";
-  font-style: normal;
   background-color: lightblue;
 }
 

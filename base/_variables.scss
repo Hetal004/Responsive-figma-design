@@ -4,5 +4,6 @@ $font_weight2 : 400;
 $font_family1 : 'Inter';
 $font_style1 : normal;
 
-$tablet: "(min-width: 768px) and (max-width: 1023px)";
-$mobile: "(max-width: 768px)";
+$mobile: "(max-width: 576px)";
+$tablet: "(min-width: 576px) and (max-width: 991px)";
+$desktop: "(min-width:  991px)";

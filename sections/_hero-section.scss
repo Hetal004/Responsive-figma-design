@@ -16,6 +16,8 @@
 
     .hero-cont-subtitle {
         text-align: center;
+        min-width: 176px;
+        max-width: 530px;
     }
 
     .hero-cont-call-to-action {
@@ -53,10 +55,12 @@
 
 @media only screen and (min-width: 576px) {
     .hero-cont-title { 
-        max-width: 608px;
+        max-width: 608px;  
     }
-    .hero-cont-subtitle  {
-        min-width: 330px;
-        max-width: 530px;
+}
+
+@media #{$mobile} {
+    .hero-cont-call-to-action {
+        flex-direction: column;
     }
 }
