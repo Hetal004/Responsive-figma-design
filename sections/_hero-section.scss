@@ -9,17 +9,6 @@
     @extend %flex_col;
     margin: 150px;
 
-    .hero-cont-title {   
-        margin: 0;
-        text-align: center; 
-    }
-
-    .hero-cont-subtitle {
-        text-align: center;
-        min-width: 176px;
-        max-width: 530px;
-    }
-
     .hero-cont-call-to-action {
         @extend %flex_row;
         gap: 16px;
@@ -54,7 +43,7 @@
 }
 
 @media only screen and (min-width: 576px) {
-    .hero-cont-title { 
+    .hero-cont .master-head-title { 
         max-width: 608px;  
     }
 }
