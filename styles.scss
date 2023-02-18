@@ -1,4 +1,4 @@
-@import './base/colors', './base/typography', './components/icons', './components/navbar', './sections/hero-section', './sections/center-section', './sections/left-section';
+@import './base/colors', './base/typography', './components/icons', './components/navbar', './sections/hero-section', './sections/center-section', './sections/left-section', './sections/right-section';
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
@@ -43,6 +43,7 @@ body {
 }
 
 .master-head-title {
+    max-width: 60%;
     margin: 0;
     text-align: center;
 }
@@ -50,7 +51,7 @@ body {
 .master-head-subtitle {
     text-align: center;
     color: $dksecondary;
-    max-width: 60%;
+    max-width: 55%;
 }
 
 @media only screen and (max-width: 991px) {

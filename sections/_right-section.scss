@@ -1,0 +1,68 @@
+.right-section {
+    @extend %flex;
+    padding: 0 20px;
+
+    .right-cont {
+        @extend %flex;
+        flex: 1;
+
+        .right-column1 {
+            @extend %flex;
+            justify-content: center;
+            flex: 1;
+
+            .iphone {
+                width: 54%;
+            }
+        }
+        
+        .right-column2 {
+            @extend %flexc;
+            flex: 1;
+            gap: 24px;
+
+            .right-rows {
+                @extend %flex;
+                gap: 24px;
+
+                .right-row-items {
+                    @extend %flexc;
+                    flex: 1;
+                    gap: 12px;
+                    box-sizing: border-box;
+                    padding: 24px;
+                    border: 1px solid $dkquaternary;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media #{$mobile} {   
+    .right-cont {
+        margin: 10%;
+    }
+    .right-rows {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 991px) {   
+    .right-cont {
+        flex-direction: column;
+    }
+    .right-column1 {
+        order: 1;
+        .iphone {
+            padding: 3%;
+        }
+    }
+}
+
+@media #{$desktop} {   
+    .right-cont {
+        margin: 5%;
+    }
+    
+}
