@@ -214,6 +214,7 @@ span .star-icon {
 }
 
 .image-size {
+  height: 80%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -223,7 +224,6 @@ span .star-icon {
 @media (max-width: 576px) {
   .image-size {
     height: 200px;
-    width: 240px;
   }
 }
 .h1_text {
@@ -648,7 +648,7 @@ span .star-icon {
 }
 
 .hero-cont {
-  margin: 150px;
+  margin: 10%;
 }
 .hero-cont .hero-cont-call-to-action {
   gap: 16px;
@@ -897,7 +897,6 @@ span .star-icon {
   gap: 40px;
 }
 .center-section .center-cont .center-cont-items .center-item-cont {
-  max-width: 30%;
   padding: 40px;
 }
 .center-section .center-cont .center-cont-items .center-item-cont .center-item-title {
@@ -915,6 +914,16 @@ span .star-icon {
   .center-cont-items {
     flex-direction: column;
     align-items: center;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .image-container {
+    height: 350px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .center-item-cont {
+    max-width: 30%;
   }
 }
 .h1_text {
@@ -1118,6 +1127,7 @@ span .star-icon {
 
 .left-section .left-cont {
   gap: 40px;
+  margin: 5%;
 }
 .left-section .left-cont .left-column1 {
   gap: 35px;
@@ -1134,14 +1144,21 @@ span .star-icon {
 .left-section .left-cont .left-column1 .left-column-item .left-row-item-description {
   row-gap: 5px;
 }
+.left-section .left-cont .left-column2 {
+  flex: 1;
+}
 
 @media only screen and (max-width: 919px) {
   .left-cont {
     flex-direction: column;
-    align-items: center;
   }
   .left-cont .left-column-item {
     padding: 0 30px;
+  }
+  .left-column2 {
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 body {
@@ -1152,7 +1169,7 @@ body {
   display: flex;
 }
 
-.left-section .left-cont .left-column1, .left-section .left-cont .left-column1 .left-column-item .left-row-item-description {
+.left-section .left-cont .left-column1, .left-section .left-cont .left-column1 .left-column-item .left-row-item-description, .left-section .left-cont .left-column2 {
   display: flex;
   flex-direction: column;
 }
@@ -1187,5 +1204,11 @@ body {
 .master-head-subtitle {
   text-align: center;
   color: rgba(39, 41, 55, 0.75);
-  max-width: 500px;
+  max-width: 60%;
+}
+
+@media only screen and (max-width: 991px) {
+  .master-head-subtitle {
+    max-width: 60%;
+  }
 }/*# sourceMappingURL=styles.css.map */

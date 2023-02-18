@@ -1,5 +1,4 @@
-// @import '/styles/accordian', '/styles/colors', '/styles/icons', '/styles/para', '/styles/typography';
-@import './base/colors', './base/typography', './components/icons','./components/navbar', './sections/hero-section','./sections/center-section','./sections/left-section';
+@import './base/colors', './base/typography', './components/icons', './components/navbar', './sections/hero-section', './sections/center-section', './sections/left-section';
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
@@ -51,5 +50,12 @@ body {
 .master-head-subtitle {
     text-align: center;
     color: $dksecondary;
-    max-width: 500px;
+    max-width: 60%;
+}
+
+@media only screen and (max-width: 991px) {
+    .master-head-subtitle {
+        max-width: 60%;
+    }
+
 }
