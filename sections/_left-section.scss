@@ -1,8 +1,8 @@
 @import '../base/colors', '../base/typography';
 
 .left-section {
+    padding: 0 20px;
     @extend %flex_col;
-
 
     .left-cont {
         @extend %flex;
@@ -12,20 +12,13 @@
         .left-column1 {
             @extend %flexc;
             gap: 35px;
+            flex: 1;
 
             .left-column-item {
                 @extend %flex;
                 gap: 24px;
 
-                .left-column-icon1 {
-                    @extend %flex_row;
-                    width: 48px;
-                    height: 48px;
-                    background: $actopacity1;
-                    border-radius: 10px;
-                }
-
-                .left-row-item-description {
+               .left-row-item-description {
                     @extend %flexc;
                     row-gap: 5px;
                 }
@@ -36,6 +29,13 @@
             @extend %flexc;
             flex: 1;
         }
+    }
+}
+
+@media #{$mobile} {   
+
+    .left-cont {
+        margin: 10%;
     }
 }
 
