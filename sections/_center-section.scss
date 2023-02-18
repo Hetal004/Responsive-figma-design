@@ -12,10 +12,9 @@
             @extend %flex_row;
             width: 100%;
             gap: 40px;
-   
+
             .center-item-cont {
                 @extend %flex_col;
-                max-width: 30%;
                 padding: 40px;
 
                 .center-item-title {
@@ -30,7 +29,7 @@
     }
 }
 
-@media #{$mobile} {
+@media #{$mobile} {   
     .center-item-cont {
         text-align: center;
         order: 2;
@@ -39,6 +38,16 @@
     .center-cont-items {
         flex-direction: column;
         align-items: center;
+    }
+}
+@media #{$tablet} {   
+    .image-container {
+        height: 350px;
+    }
+}
 
+@media only screen and (min-width: 576px) {
+    .center-item-cont {
+        max-width: 30%;
     }
 }

@@ -7,7 +7,7 @@
 
 .hero-cont {
     @extend %flex_col;
-    margin: 150px;
+    margin: 10%;
 
     .hero-cont-call-to-action {
         @extend %flex_row;
